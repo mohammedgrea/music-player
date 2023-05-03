@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="music-player-container">
+      <div class="cover-song">
+        <img />
+      </div>
+      <div class="song-info">
+        <span class="song-name">Batman vs superman </span>
+        <span class="artist-name">mohammed</span>
+      </div>
+      <div class="duration-container">
+        <span class="current-time">0:00</span>
+        <span class="song-duration">2:49</span>
+      </div>
+      <div class="progress-container">
+        <div class="progress"></div>
+      </div>
+      <audio controls hidden></audio>
+      <div class="controlers">
+        <!-- Prev -->
+        <div class="next-btn">
+          <i class="fas fa-backward-step prev-icon"></i>
+        </div>
+        <!-- Play  -->
+        <div class="play-btn">
+          <i class="fas fa-play play-icon"></i>
+        </div>
+        <!-- Next -->
+        <div class="prev-btn">
+          <i class="fas fa-forward-step next-icon"></i>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
